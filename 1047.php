@@ -17,7 +17,6 @@ if ($start == 0 && $end == 0) {
 } elseif ($end == $start) {
     $time_calc = 0;
 } elseif ($end < $start) {
-    echo "this block\n";
     $time_calc = 24 - $start + $end;
 } elseif ($start >= 12) {
     $time_calc = 24 - $start + $end;
