@@ -1,0 +1,9 @@
+<?php
+
+$_input = intval(trim(fgets(STDIN)));
+
+for ($i = 1; $i <= 10000; $i++) {
+    if ($i % $_input == 2) {
+        echo $i . PHP_EOL;
+    }
+}
