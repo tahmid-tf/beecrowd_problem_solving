@@ -22,8 +22,6 @@ The main goal of this repository is to practice competitive programming, strengt
 - **Compatibility:** PHP 7.x / PHP 8.x (Beecrowd default environment)
 - **Execution:** CLI (STDIN / STDOUT)
 
-All solutions avoid PHP features not supported by Beecrowd’s execution environment.
-
 ---
 
 ## ✍️ Coding Guidelines
