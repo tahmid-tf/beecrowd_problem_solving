@@ -43,3 +43,5 @@ $array = [1, 2, 3, 4, 5, 6];
 // echo round(18 % 5);
 
 // echo number_format(18 % 5, 2) . "";
+
+// [$_line_limit, $_limit] = array_map('intval', explode(' ', trim(fgets(STDIN))));
