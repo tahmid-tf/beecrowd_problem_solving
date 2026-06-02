@@ -1,0 +1,1 @@
+SELECT id, name FROM movies where id_genres = (select id from genres where description = 'Action');
