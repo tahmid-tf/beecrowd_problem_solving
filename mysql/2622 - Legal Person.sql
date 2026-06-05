@@ -1,0 +1,1 @@
+select cu.name from customers cu inner join legal_person lp on cu.id = lp.id_customers;
