@@ -1,0 +1,1 @@
+SELECT name, EXTRACT(DAY FROM payday) AS day FROM loan;
