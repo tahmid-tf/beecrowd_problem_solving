@@ -4,83 +4,85 @@
 ![PHP](https://img.shields.io/badge/Language-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-A comprehensive collection of accepted solutions for [Beecrowd](https://www.beecrowd.com.br/) (formerly URI Online Judge) problems. This repository serves as a personal archive for practicing algorithms, data structures, and database management.
+A curated collection of accepted solutions for [Beecrowd](https://www.beecrowd.com.br/) problems. This repository is maintained as a personal practice archive for algorithms, data structures, and SQL problem solving.
 
-## 📌 Overview
+## Problem Progress
 
-This repository contains solutions categorized by problem type and language:
-- **General Programming:** Implemented in PHP, focusing on logic, mathematics, and algorithmic efficiency.
-- **Database:** Implemented in MySQL, focusing on complex queries, joins, and data manipulation.
+| Category | Problems Solved |
+| --- | ---: |
+| PHP | 99 |
+| MySQL | 30 |
+| Total | 129 |
 
----
+## Repository Overview
 
-## 📁 Repository Structure
+This repository is organized by language and problem type:
+
+- `php/` contains PHP solutions for algorithmic and programming challenges.
+- `mysql/` contains SQL solutions for database-related challenges.
+
+## Repository Structure
 
 ```text
 .
-├── coding/                 # PHP Solutions (Algorithm & Mathematics)
-│   ├── 1001.php            # Individual problem solutions
-│   └── README.md           # PHP-specific documentation
-└── mysql/                  # SQL Solutions (Database)
-    ├── 2602.sql            # Basic and advanced SQL queries
-    └── ...
+|-- php/                   # PHP solutions
+|   |-- 1009 - Salary with Bonus.php
+|   |-- 1010 - Simple Calculate.php
+|   `-- ...
+|-- mysql/                 # MySQL solutions
+|   |-- 2602 - Basic select.sql
+|   |-- 2603 - Customer Address.sql
+|   `-- ...
+`-- README.md
 ```
 
----
+## Technologies Used
 
-## 🛠️ Technologies Used
+- PHP 7.4+
+- MySQL
 
-- **PHP 7.4+**: Used for algorithmic challenges.
-- **MySQL**: Used for database challenges.
+## Getting Started
 
----
+### PHP Solutions
 
-## 🚀 Getting Started
+Run a solution from the command line:
 
-### Prerequisites
-- PHP installed locally (for running PHP scripts).
-- A MySQL environment or a tool like [DB-Fiddle](https://www.db-fiddle.com/) to test SQL queries.
-
-### How to Run a PHP Solution
-To run a specific solution locally, use the CLI:
 ```bash
-php coding/1001.php
+php "php/1009 - Salary with Bonus.php"
 ```
-*Note: Some problems may require input via STDIN.*
 
-### How to View SQL Solutions
-You can open any `.sql` file in the `mysql/` directory using any text editor or SQL IDE. Each file is named after its corresponding Beecrowd problem ID and title.
+Some problems may require input through standard input.
 
----
+### MySQL Solutions
 
-## 📊 Solved Categories
+Open any `.sql` file in the `mysql/` directory using your preferred SQL client or editor. Each file is named after its corresponding Beecrowd problem.
 
-### PHP (coding/)
-- **Beginner:** Basic syntax, I/O, and conditionals.
-- **Mathematics:** Formulas, number theory, and geometry.
-- **Strings:** Manipulation and pattern matching.
+## Solution Categories
 
-### MySQL (mysql/)
-- **Basic Select:** Fundamental retrieval.
-- **Joins:** Combining data from multiple tables.
-- **Aggregations:** Grouping and summarizing data.
+### PHP
 
----
+- Beginner problems
+- Mathematics
+- Strings
+- Arrays
+- Loops and conditions
 
-## 🤝 Contributing
+### MySQL
 
-This is a personal repository for learning purposes. However, if you find an optimization or a better way to solve a problem:
+- Basic select queries
+- Joins
+- Aggregations
+- Filtering and grouping
+
+## Contributing
+
+This repository is primarily for personal practice, but suggestions for cleaner or more efficient solutions are always welcome.
+
 1. Fork the repository.
-2. Create a new branch.
+2. Create a feature branch.
 3. Commit your changes.
-4. Open a Pull Request.
+4. Open a pull request.
 
----
-
-## 📜 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-*Happy Coding! 🚀*
