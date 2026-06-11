@@ -11,8 +11,8 @@ A curated collection of accepted solutions for [Beecrowd](https://www.beecrowd.c
 | Category | Problems Solved |
 | --- | ---: |
 | PHP | 99 |
-| MySQL | 39 |
-| Total | 138 |
+| MySQL | 50 |
+| Total | 149 |
 
 ## Repository Overview
 
